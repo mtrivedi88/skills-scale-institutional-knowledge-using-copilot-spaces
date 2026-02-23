@@ -16,6 +16,8 @@ After each sprint, release, or important milestone. Also after incidents.
 - Timebox: 45–75 minutes depending on team size
 - Use an anonymous idea board if needed to encourage candor
 - Prioritize 2–3 top action items to avoid overload
+- Invite Customer Success / Support Rep to share customer-reported issues from the release period
+- Ask Data Analyst / Insights Lead to present key metrics and adoption data as a grounding input
 
 ## Tracking Improvements
 - Add action items to the project backlog or issues with clear owners and timelines

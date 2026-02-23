@@ -14,7 +14,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
-  - Require at least one approval before merging (or team-defined policy)
+  - Require at least one approval before merging; critical PRs require Tech Lead review
+  - Tech Lead is accountable for enforcing CI/CD policies and code quality standards
 
 ## Quality & Testing
 - Unit tests for new logic
@@ -29,12 +30,13 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
+- Level 1: Team-level triage in daily standup (Developers and Tech Lead)
+- Level 2: PM escalates to Product Lead and dependent teams; Tech Lead escalates technical blockers
 - Level 3: Sponsor-level escalation for business-impacting issues
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
+- [ ] Tech Lead assigned and critical PR review process defined
 - [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] Risk register updated weekly (Tech Lead owns technical risk entries)
