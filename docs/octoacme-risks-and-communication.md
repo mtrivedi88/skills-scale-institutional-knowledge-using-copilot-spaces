@@ -9,7 +9,7 @@ Maintain a simple table with:
 - Description
 - Impact (High/Med/Low)
 - Likelihood (High/Med/Low)
-- Owner
+- Owner (Tech Lead owns technical risks; PM owns schedule/resource risks; PdM owns scope risks)
 - Mitigation plan
 - Status
 
@@ -20,9 +20,10 @@ Maintain a simple table with:
 - Monitor: review at weekly syncs and update status
 
 ## Stakeholder Communication
-- Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
+- Identify stakeholder groups and communication needs (e.g., engineering, sales, support, customer success)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+- Customer Success / Support Rep should receive advance notice of upcoming changes that affect customers
 
 ## Communication Templates
 Weekly Status Template:
